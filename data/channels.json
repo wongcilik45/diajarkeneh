@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sunnah TV",
+    "logo": "https://example.com/logos/mykidz.png",
+    "stream": "https://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV"
+  },
+  {
+    "name": "Rcti",
+    "logo": "https://example.com/logos/moviezone.png",
+    "stream": "https://belajar.tkj1.workers.dev?url=https://fta4-cdn-flr.visionplus.id/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd",
+    "drm": {
+      "keys": {
+        "d386001215594043a8995db796ad9e9c": "3404792cb4c804902acdc6ca65c1a298"
+      }
+    }
+  },
+  {
+    "name": "Sctv",
+    "logo": "https://example.com/logos/moviezone.png",
+    "stream": "https://belajar.tkj1.workers.dev?url=https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd&ua=exo",
+    "drm": {
+      "keys": {
+        "a79a188263724bfcaafc4a7c3b3cd8ce": "4d4732d93e6720de0ef884d7106e14f7"
+      }
+    }
+  }
+]

@@ -54,7 +54,7 @@
       "url": "https://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&userid=lite&chname=My_Kidz_HD",
       "userAgent": "ua1",
       "referer": "",
-      "description": "Cartoon Channel for Kids",
+      "description": "MyKidz",
       "category": "Kids",
       "thumbnail": "https://via.placeholder.com/300x169/FF69B4/FFFFFF?text=KIDS",
       "isActive": true
@@ -88,3 +88,4 @@
     }
   ]
 }
+

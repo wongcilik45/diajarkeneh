@@ -1,29 +1,90 @@
 {
-  "channels": [
+  "userAgents": {
+    "ua1": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "ua2": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "ua3": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36",
+    "ua4": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+    "default": "Mozilla/5.0 (Android; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36"
+  },
+  "referers": {
+    "ref1": "https://netflix.com",
+    "ref2": "https://disneyplus.com",
+    "ref3": "https://hbo.com",
+    "ref4": "https://primevideo.com",
+    "ref5": "https://youtube.com",
+    "default": "https://nobar-apps.com"
+  },
+  "defaultUserAgent": "ua1",
+  "defaultReferer": "ref5",
+  "uiConfig": {
+    "theme": "dark",
+    "showThumbnails": true,
+    "categories": ["Live TV", "Movies", "Sports", "Kids", "Music"]
+  },
+  "streams": [
     {
-      "name": "Sunnah TV",
-      "logo": "https://example.com/logos/mykidz.png",
-      "url": "https://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV"
+      "id": "live_news",
+      "name": "📺 Live News Channel",
+      "url": "https://example.com/live/news.m3u8",
+      "userAgent": "ua3",
+      "referer": "ref5",
+      "description": "24/7 Live News Broadcast",
+      "category": "Live TV",
+      "thumbnail": "https://via.placeholder.com/300x169/FF0000/FFFFFF?text=NEWS",
+      "isActive": true
     },
     {
-      "name": "Rcti",
-      "logo": "https://example.com/logos/moviezone.png",
-      "url": "https://belajar.tkj1.workers.dev?url=https://fta4-cdn-flr.visionplus.id/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd",
-      "drm": {
-        "keys": {
-          "d386001215594043a8995db796ad9e9c": "3404792cb4c804902acdc6ca65c1a298"
-        }
-      }
+      "id": "sports_live",
+      "name": "⚽ Live Sports",
+      "url": "https://example.com/live/sports.mpd",
+      "userAgent": "ua1",
+      "referer": "ref1",
+      "headers": {
+        "X-Stream-Quality": "hd",
+        "X-Auth-Token": "sports_token_123"
+      },
+      "description": "Live Sports Events",
+      "category": "Sports",
+      "thumbnail": "https://via.placeholder.com/300x169/008000/FFFFFF?text=SPORTS",
+      "isActive": true
     },
     {
-      "name": "Sctv",
-      "logo": "https://example.com/logos/moviezone.png",
-      "url": "https://belajar.tkj1.workers.dev?url=https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd&ua=exo",
-      "drm": {
-        "keys": {
-          "a79a188263724bfcaafc4a7c3b3cd8ce": "4d4732d93e6720de0ef884d7106e14f7"
-        }
-      }
+      "id": "kids_cartoon",
+      "name": "🐰 Kids Cartoon",
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&userid=lite&chname=My_Kidz_HD",
+      "userAgent": "ua1",
+      "referer": "",
+      "description": "Cartoon Channel for Kids",
+      "category": "Kids",
+      "thumbnail": "https://via.placeholder.com/300x169/FF69B4/FFFFFF?text=KIDS",
+      "isActive": true
+    },
+    {
+      "id": "movie_premium",
+      "name": "🎬 Premium Movie",
+      "url": "https://example.com/movies/premium.mpd",
+      "userAgent": "ua4",
+      "referer": "ref3",
+      "headers": {
+        "Authorization": "Bearer movie_token_456",
+        "X-Content-Type": "movie",
+        "X-Video-Quality": "4k"
+      },
+      "description": "4K Premium Movie Channel",
+      "category": "Movies",
+      "thumbnail": "https://via.placeholder.com/300x169/000080/FFFFFF?text=MOVIE",
+      "isActive": true
+    },
+    {
+      "id": "music_live",
+      "name": "🎵 Live Music",
+      "url": "https://example.com/music/live.m3u8",
+      "userAgent": "ua3",
+      "referer": "ref4",
+      "description": "24/7 Music Streaming",
+      "category": "Music",
+      "thumbnail": "https://via.placeholder.com/300x169/FFA500/FFFFFF?text=MUSIC",
+      "isActive": true
     }
   ]
 }

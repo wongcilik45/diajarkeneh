@@ -6,7 +6,7 @@
 
 #>> Olahraga >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-#EXTINF:-1 SPORTSTARTS tvg-id="" tvg-name="" tvg-logo="" group-title="NobarTV"
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="NobarTV",SPORTSTARTS 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey

@@ -1,0 +1,17 @@
+[
+  {
+    "text": "🎉 Special Offer! Discount 50% for premium members",
+    "url": "https://example.com/promo",
+    "duration": 5000
+  },
+  {
+    "text": "📢 Update terbaru v2.1.0 sudah tersedia!",
+    "url": "https://example.com/update",
+    "duration": 4000
+  },
+  {
+    "text": "⭐ Jangan lupa beri rating 5 bintang di Play Store",
+    "url": "",
+    "duration": 6000
+  }
+]
